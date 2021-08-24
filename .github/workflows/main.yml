@@ -13,8 +13,8 @@ jobs:
       run: |
         Invoke-WebRequest https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
         Invoke-WebRequest https://cdn.discordapp.com/attachments/705906948922540044/878683182034190346/Growtopia.zip -OutFile Growtopia.zip
-        Invoke-WebRequest https://raw.githubusercontent.com/natan1507/glowing-octo-couscous/main/extra/teohook.dll -OutFile teohook.dll
-        Invoke-WebRequest https://raw.githubusercontent.com/natan1507/glowing-octo-couscous/main/extra/fixed_Inject_Teohook.bat -OutFile Inject_Teohook.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/natan1507/natan1/main/extra/teohook.dll -OutFile teohook.dll
+        Invoke-WebRequest https://raw.githubusercontent.com/natan1507/natan1/main/extra/fixed_Inject_Teohook.bat -OutFile Inject_Teohook.bat
         Invoke-WebRequest https://raw.githubusercontent.com/natan1507/natan1/main/extra/GABB.zip -OutFile GABB.zip
         Invoke-WebRequest https://raw.githubusercontent.com/natan1507/natan1/main/extra/EnetProxy.zip -OutFile EnetProxy.zip
         Invoke-WebRequest https://raw.githubusercontent.com/natan1507/natan1/main/extra/ProcessHacker.zip -OutFile ProcessHacker.zip
